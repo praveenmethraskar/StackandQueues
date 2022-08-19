@@ -37,7 +37,26 @@ namespace StackWithLinkedList
                 temp = temp.Next;
             }
         }
+        public void peek()
+        {
+            // check for empty stack 
+            if (top == null)
+            {
+                Console.WriteLine("Stack is empty");
+            }
+            Node temp = top;
+            Console.WriteLine(temp.data+ " is top element");
+        }
 
-        
+        public void pop()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("Stack is empty");
+            }
+            this.top = this.top.Next;
+        }
+
+
     }
 }

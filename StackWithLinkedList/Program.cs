@@ -14,9 +14,17 @@ namespace StackWithLinkedList
             stackobj.Push(30);
             stackobj.Push(40);
             stackobj.Display();
-            //stackobj.pop();
-            //stackobj.Display();
+            stackobj.peek();
+            stackobj.pop();
+            stackobj.Display();
 
+            stackobj.peek();
+            stackobj.pop();
+            stackobj.Display();
+
+            stackobj.peek();
+            stackobj.pop();
+            stackobj.Display();
 
         }
     }
